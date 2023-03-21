@@ -1,7 +1,7 @@
 package br.edu.insper.desagil.aula4;
 
 public class Aula4 {
-	public static void main(String[] args) {
+	public static void main(String[] args) {  // POR QUE TEM QUE POR ISSO PRA PRINTAR 
 		Ship ship = new Ship(2,1);
 
 		//ship.setX(2);  --> atribuindo construtores, pode tirar esses carinhas

@@ -4,7 +4,7 @@ public class Ship {
     private int x;
     private int y;
     
-    public Ship (int x, int y) {
+    public Ship (int x, int y) {  // contrutor que atribui valores aos atributos
     	this.x = x;
     	this.y = y;
     }

@@ -21,5 +21,10 @@
       <version>4.11.0</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+    	<groupId>br.edu.insper</groupId>
+    	<artifactId>desagil-aula10</artifactId>
+    	<version>1.0.0-SNAPSHOT</version>
+    </dependency>
   </dependencies>
 </project>
