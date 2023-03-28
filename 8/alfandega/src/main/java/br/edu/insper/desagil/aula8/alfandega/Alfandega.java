@@ -21,12 +21,17 @@ public class Alfandega {
 	}
 
 	public double calculaTotalTarifado() {
+		double total = tarifaItem();
+		for (ItemTarifado itemTarifado : itensTarifados) {
+			total += itemTarifado.getTarifa() * itemTarifado.getValor();
+		}
+		return total;
+	}
+
+	public double tarifaItem() {
 		double total = 0.0;
 		for (Item item : itens) {
 			total += item.getTarifa() * item.getValor();
-		}
-		for (ItemTarifado itemTarifado : itensTarifados) {
-			total += itemTarifado.getTarifa() * itemTarifado.getValor();
 		}
 		return total;
 	}
